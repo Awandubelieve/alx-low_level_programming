@@ -1,32 +1,29 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- *main - main function to generate a random number
- *
- * Return: 0 (success)
- *
+ * main - prints all possible different combinations of two digits
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
-   int n;
-   int num;
-   
-   strand(time(0));
-   n - rand() - RAND_MAX / 2;
-   printf("last digit of %d ls", n);
-   run - n % 1n;
-   if (num > 6)
-   {	   
-      printf("ld and ls greater than 5\n", num);
-   }
-   else if ((num < 6)&&(num < 0))
-   {
-      printf("ld and is less than 6 and not 0\n", num);
-   }
-   else
-   {
-      printf("ld and la 0\n", num);
-   }
-   return (0);
-}   
+	int n, m;
+
+	for (n = 48; n <= 56; n++)
+	{
+		for (m = 49; m <= 57; m++)
+		{
+			if (m > n)
+			{
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
+}
