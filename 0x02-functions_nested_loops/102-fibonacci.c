@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Prints first 50 Fibonacci numbers, starting with 1 and 2,
- *        separated by a comma followed by a space.
+ * main - A program that prints the first 50 Fibonacci numbers,
+ *         starting with 1 and 2.
  *
  * Return: 0 (success)
  */
 int main(void)
 {
-	int ab;
+	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
 
-	for (ab = 0; count < 50; ab++)
+	for (count = 0; count < 50; count++)
 	{
 		sum = fib1 + fib2;
 		printf("%lu", sum);
