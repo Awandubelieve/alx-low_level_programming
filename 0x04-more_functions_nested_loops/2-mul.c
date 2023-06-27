@@ -1,13 +1,20 @@
 #include "main.h"
 
 /**
- * mul - multiply 2 int
- * @a: first int
- * @b: second int
- * Return: addition of the multiplication
+ * mul - multiply two numbers
+ * Description: multiply two numbers
+ * @num1: interger value
+ * @num2: interger value
+ *
+ * Return: result
+ * Example:
+ *      mul(4 * 5) ---> 20
  */
 
-int mul(int a, int b)
+int mul(int num1, int num2)
 {
-return (a * b);
-}	
+	int result = 0;
+
+	result = num1 * num2;
+	return (result);
+}
