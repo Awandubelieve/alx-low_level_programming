@@ -1,7 +1,8 @@
 #include "main.h"
+#include <string.h>
 
 /**
- * _strspn - a function that get prifix substring
+ * _strspn - A function that get prifix substring
  * @s: the chain
  * @accept: the chain
  *
