@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strpbrk - A function that searches a string
+ * _strpbrk - a function that searches a string
  * @s: the chain
  * @accept: the chain
  *
@@ -20,9 +20,9 @@ char *_strpbrk(char *s, char *accept)
 			return (s);
 		}
 		else
-		}
+		{
 			s++;
 		}
-	{
+	}
 	return (NULL);
 }
