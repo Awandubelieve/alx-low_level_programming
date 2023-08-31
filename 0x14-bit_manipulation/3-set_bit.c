@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * set_bit -A function that sets the value of a bit to index
+ * set_bit -The function that sets value of a bit to index
  * @n: parameter
  * @index: index
  * Return: value
