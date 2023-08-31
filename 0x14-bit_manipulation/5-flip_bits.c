@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * flip_bits -Function that returns the  number of bits
- * to get from one number to another
+ * flip_bits -Function which retuns number of a bit.
+ * to get from each another
  * @n: parameter
  * @m: destiny
  * Return: nflips
