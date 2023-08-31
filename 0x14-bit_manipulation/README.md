@@ -1,4 +1,8 @@
 0x14. C - Bit manipulation
 
-n = binary_to_uint("101");
+This project expect us to know all Bitwise opeartuons.
+e.g & AND
+~ NOT (bitwise complement)
+^ (bitwise XOR)
+| OR
 
