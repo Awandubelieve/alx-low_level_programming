@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * clear_bit -Function that sets the value of a bit to 0
+ * clear_bit -A value that set a bit to 0
  * @n: parameter
  * @index: index
  * Return: 1 if works, -1 if error
